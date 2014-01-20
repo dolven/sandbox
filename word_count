@@ -1,0 +1,4 @@
+#!/bin/tcsh
+find . -name '*.f' -print | xargs grep '.' | grep -v 'C' | grep -v '!' | wc -l
+
+

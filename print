@@ -1,0 +1,13 @@
+Traceback for star PE 0, process id 29716 (node 24)
+  Executing at line 23 in __read of /data/clunk/share/package/mp201/usr/src/irix/lib/libc/src/sys/read.c
+  Called at line 36 in _read of /data/clunk/share/package/mp201/usr/src/irix/lib/libc/src/sys/read.c
+  Called at line 65 in __filbuf of /data/clunk/share/package/mp201/usr/src/irix/lib/libc/src/stdio/_filbuf.c
+  Called at line 58 in fgets of /data/clunk/share/package/mp201/usr/src/irix/lib/libc/src/stdio/fgets.c
+  Called at line 104 in lgets of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/newgrc.c
+  Called at line 232 in pexec_ of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/newgrc.c
+  Called at line 3709 in CGCLL of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/newgr.f
+  Called at line 902 in NEWGR of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/newgr.f
+  Called at line 2169 in INPUT1 of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/input1.f
+  Called at line 764 in STAR of /ptmp/dolven/starcd3150/LATEST_041102/build/x1_50_MSP/Targets/Star-Cray/Single/star.f
+  Called at line 1743 in starin_ of /ptmp/dolven/SEQ-TB3/tut-CASES-dir/tut7/tut7.1/starin.f
+

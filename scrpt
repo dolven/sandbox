@@ -1,0 +1,6 @@
+#!/bin/csh
+rm -f lst.out
+cd dir1
+ls -a $HOME >&! lst.out 
+sleep 5
+mv -f lst.out ..
