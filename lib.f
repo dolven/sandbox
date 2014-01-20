@@ -7,3 +7,9 @@
          write(*,*) 'i= ',i
       enddo
       end
+
+      SUBROUTINE rout3
+      do i=1,20
+         write(*,*) 'i= ',i
+      enddo
+      end
